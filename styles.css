@@ -4,16 +4,16 @@
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Inter", sans-serif;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 2rem;
-  width: 100%;
+  padding: 5rem;
+  width: 100vw;
 }
 
 .Navbar__wrapper {
@@ -29,71 +29,85 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2rem;
-  font-size: 3rem;
+  gap: 6rem;
+  font-size: 6rem;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: hsl(236, 13%, 42%);
 }
 .Main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+}
+
+.Main__center {
+  display: flex;
+  width: 70vw;
+  gap: 4rem;
 }
 
 .Content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45vw;
+  width: 50vw;
 }
 
 .Content__image {
-  width: 100%;
-  margin-left: 4rem;
+  width: fit-content;
+  height: fit-content;
 }
 
 .Sidebar {
   display: flex;
   flex-direction: column;
-  width: 23vw;
+  width: 25vw;
   background-color: black;
   color: white;
-  margin-left: 7rem;
 }
 
 .sidebar__details {
-  padding-left: 2rem;
-  padding-right: 1rem;
+  padding: 0 3rem;
 }
 
 .Sidebar h2 {
-  font-size: 2rem;
+  font-size: 6rem;
+  color: hsl(35, 77%, 62%);
+  padding-top: 4rem;
 }
 
 .Sidebar h3 {
-  font-size: 1rem;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+  color: hsl(36, 100%, 99%);
 }
 
 .Sidebar p {
-  font-size: 1rem;
+  font-size: 2.3rem;
+  color: hsl(236, 13%, 42%);
+  padding-bottom: 5rem;
+}
+.sidebar__details__border {
+  border-bottom: 0.1rem solid hsl(36, 100%, 99%);
 }
 
 .Content__text {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 45vw;
-  margin-left: 7rem;
-  gap: 3rem;
+  width: 50vw;
+  gap: 20rem;
 }
 
 .Content__text__heading {
-  font-size: 3rem;
+  font-size: 10rem;
   width: 20vw;
+  margin: 2rem 0;
+  font-weight: 900;
 }
 
 .Content__description {
@@ -103,17 +117,61 @@ a {
 }
 
 .Content__text__details {
-  font-size: 1.2rem;
-  width: 25vw;
+  font-size: 3rem;
+  line-height: 4rem;
+  width: 23vw;
+  color: hsl(236, 13%, 42%);
 }
 
 .btn {
-  width: 100px;
-  height: 25px;
+  width: fit-content;
+  height: fit-content;
   color: white;
-  background-color: #eb5234;
+  background-color: hsl(5, 85%, 63%);
+  padding: 3rem 8rem;
+  margin-top: 6rem;
 }
 .btn p {
-  font-size: 1rem;
+  font-size: 3rem;
+  letter-spacing: 0.7rem;
   text-align: center;
+}
+
+.Blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.Blog__wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  margin-top: 9rem;
+  gap: 20rem;
+}
+
+.Blog__article {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.Blog__main__heading {
+  font-size: 5rem;
+  color: hsl(233, 8%, 79%);
+  margin: 1rem 0;
+}
+
+.Blog__second__heading {
+  font-size: 2.5rem;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: 1rem;
+}
+
+.Blog__details {
+  font-size: 2rem;
+  color: hsl(233, 8%, 79%);
+  line-height: 3rem;
 }
