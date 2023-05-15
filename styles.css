@@ -58,8 +58,8 @@ a {
 }
 
 .Content__image {
-  width: fit-content;
-  height: fit-content;
+  width: 50vw;
+  height: 30vh;
 }
 
 .Sidebar {
@@ -89,6 +89,7 @@ a {
 
 .Sidebar p {
   font-size: 2.3rem;
+  font-weight: 600;
   color: hsl(236, 13%, 42%);
   padding-bottom: 5rem;
 }
@@ -104,9 +105,10 @@ a {
 }
 
 .Content__text__heading {
-  font-size: 10rem;
+  font-size: 9rem;
+  line-height: 9rem;
   width: 20vw;
-  margin: 2rem 0;
+  margin: 4rem 0;
   font-weight: 900;
 }
 
@@ -114,6 +116,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 .Content__text__details {
@@ -128,8 +131,8 @@ a {
   height: fit-content;
   color: white;
   background-color: hsl(5, 85%, 63%);
-  padding: 3rem 8rem;
-  margin-top: 6rem;
+  padding: 2rem 7rem;
+  margin-top: 5rem;
 }
 .btn p {
   font-size: 3rem;
@@ -161,17 +164,20 @@ a {
 .Blog__main__heading {
   font-size: 5rem;
   color: hsl(233, 8%, 79%);
-  margin: 1rem 0;
+  margin-bottom: 2rem;
 }
 
 .Blog__second__heading {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 800;
   color: hsl(240, 100%, 5%);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  white-space: nowrap;
 }
 
 .Blog__details {
   font-size: 2rem;
-  color: hsl(233, 8%, 79%);
-  line-height: 3rem;
+  font-weight: 500;
+  color: hsl(236, 13%, 42%);
+  line-height: 4rem;
 }
