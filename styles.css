@@ -29,8 +29,8 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 6rem;
-  font-size: 6rem;
+  gap: 4rem;
+  font-size: 4rem;
 }
 
 a {
@@ -47,25 +47,28 @@ a {
 .Main__center {
   display: flex;
   width: 70vw;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 .Content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 50vw;
+}
+
+.Content__image__div {
   width: 50vw;
 }
 
 .Content__image {
-  width: 50vw;
-  height: 30vh;
+  width: 100%;
 }
 
 .Sidebar {
   display: flex;
   flex-direction: column;
-  width: 25vw;
+  justify-content: space-around;
+  width: 23vw;
   background-color: black;
   color: white;
 }
@@ -75,54 +78,53 @@ a {
 }
 
 .Sidebar h2 {
-  font-size: 6rem;
+  font-size: 5rem;
   color: hsl(35, 77%, 62%);
-  padding-top: 4rem;
 }
 
 .Sidebar h3 {
-  font-size: 2.5rem;
-  padding-bottom: 2rem;
-  padding-top: 5rem;
+  font-size: 2rem;
+  white-space: nowrap;
   color: hsl(36, 100%, 99%);
+  margin-bottom: 1rem;
 }
 
 .Sidebar p {
-  font-size: 2.3rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
   font-weight: 600;
   color: hsl(236, 13%, 42%);
-  padding-bottom: 5rem;
 }
 .sidebar__details__border {
-  border-bottom: 0.1rem solid hsl(36, 100%, 99%);
+  border-bottom: 0.1rem solid hsl(36deg 100% 99% / 35%);
+  padding-bottom: 3rem;
 }
 
 .Content__text {
   display: flex;
   flex-direction: row;
-  width: 50vw;
-  gap: 20rem;
+  width: 45vw;
+  gap: 7rem;
+  margin-top: 3rem;
 }
 
 .Content__text__heading {
-  font-size: 9rem;
-  line-height: 9rem;
+  font-size: 6rem;
+  line-height: 6rem;
   width: 20vw;
-  margin: 4rem 0;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .Content__description {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 4rem;
 }
 
 .Content__text__details {
-  font-size: 3rem;
-  line-height: 4rem;
-  width: 23vw;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  width: 20vw;
   color: hsl(236, 13%, 42%);
 }
 
@@ -131,12 +133,12 @@ a {
   height: fit-content;
   color: white;
   background-color: hsl(5, 85%, 63%);
-  padding: 2rem 7rem;
-  margin-top: 5rem;
+  padding: 1rem 3rem;
+  margin-top: 4rem;
 }
 .btn p {
-  font-size: 3rem;
-  letter-spacing: 0.7rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
   text-align: center;
 }
 
@@ -150,34 +152,51 @@ a {
 .Blog__wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 70vw;
-  margin-top: 9rem;
-  gap: 20rem;
+  margin: 8rem 0;
 }
 
 .Blog__article {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 2rem;
+}
+
+.Blog__image {
+  width: 101px;
+  height: 130px;
 }
 
 .Blog__main__heading {
-  font-size: 5rem;
+  font-size: 3rem;
   color: hsl(233, 8%, 79%);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .Blog__second__heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 800;
   color: hsl(240, 100%, 5%);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   white-space: nowrap;
 }
 
 .Blog__details {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: hsl(236, 13%, 42%);
-  line-height: 4rem;
+  line-height: 2rem;
+}
+
+.article__one {
+  width: 20vw;
+}
+
+.article__two {
+  width: 24vw;
+}
+
+.article__three {
+  width: 18.8vw;
 }
